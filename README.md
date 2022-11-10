@@ -14,6 +14,7 @@ Switch to the repo folder
     cd laravel-unit-test
 
 Laravel Basic Commands
+
     php artisan route:list
     php artisan make:test TodoListTest
     php artisan make:factory TodoListFactory -m=TodoListFactory

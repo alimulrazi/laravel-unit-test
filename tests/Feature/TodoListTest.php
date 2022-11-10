@@ -32,7 +32,7 @@ class TodoListTest extends TestCase
        //TodoList::factory()->create(['name'=>'my list']);
 
        /* Action / Perform */
-       $response = $this->getJson('todo-list');
+       $response = $this->getJson(route('todo-list.index'));
 
        /* Assertions / Predict */
        $this->assertEquals(1, count($response->json()));
